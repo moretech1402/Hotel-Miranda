@@ -1349,6 +1349,25 @@ main {
   flex-direction: column;
   gap: 2rem; }
 
+@media (min-width: 1000px) {
+  #offers {
+    margin-inline: 23.4375rem; }
+    #offers__list__offer__info {
+      z-index: 2;
+      position: relative;
+      top: -2rem;
+      background: white;
+      width: 1050px;
+      margin-inline: auto;
+      border-top: 0.5rem solid #BDAC8D; }
+      #offers__list__offer__info > .section-header {
+        border-bottom: 1px solid #ECECEC; }
+    #offers__list__offer__prices {
+      position: absolute;
+      z-index: 3;
+      right: 6rem;
+      bottom: -5.5rem;
+      width: 1rem; } }
 #blog {
   padding: 4rem 1rem;
   display: flex;

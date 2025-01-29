@@ -38,3 +38,34 @@
         gap: 2rem;
     }
 }
+
+@media(min-width: $desktop-size){
+    #offers{
+        margin-inline: 23.4375rem;
+
+        &__list__offer{
+
+            &__info{
+                z-index: 2;
+                position: relative;
+                top: -2rem;
+                background: white;
+                width: 1050px;
+                margin-inline: auto;
+                border-top: .5rem solid map-get($map: $theme-colors, $key: senary);
+
+                &>.section-header{
+                    border-bottom: 1px solid #ECECEC;
+                }
+            }
+
+            &__prices{
+                position: absolute;
+                z-index: 3;
+                right: 6rem;
+                bottom: -5.5rem;
+                width: 1rem;
+            }
+        }
+    }
+}
