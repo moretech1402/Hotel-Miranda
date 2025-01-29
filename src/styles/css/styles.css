@@ -1357,11 +1357,18 @@ main {
       position: relative;
       top: -2rem;
       background: white;
-      width: 1050px;
+      width: 65.625rem;
       margin-inline: auto;
       border-top: 0.5rem solid #BDAC8D; }
       #offers__list__offer__info > .section-header {
-        border-bottom: 1px solid #ECECEC; }
+        border-bottom: 0.0625rem solid #ECECEC; }
+      #offers__list__offer__info__description {
+        display: flex;
+        justify-content: space-between; }
+        #offers__list__offer__info__description > p {
+          width: 31rem; }
+        #offers__list__offer__info__description > .amenities__list {
+          width: 26.375rem; }
     #offers__list__offer__prices {
       position: absolute;
       z-index: 3;

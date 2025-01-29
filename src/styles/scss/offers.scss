@@ -50,12 +50,25 @@
                 position: relative;
                 top: -2rem;
                 background: white;
-                width: 1050px;
+                width: 65.625rem;
                 margin-inline: auto;
                 border-top: .5rem solid map-get($map: $theme-colors, $key: senary);
 
                 &>.section-header{
-                    border-bottom: 1px solid #ECECEC;
+                    border-bottom: 0.0625rem solid #ECECEC;
+                }
+
+                &__description{
+                    display: flex;
+                    justify-content: space-between;
+
+                    &>p{
+                        width: 31rem;
+                    }
+
+                    &>.amenities__list{
+                        width: 26.375rem;
+                    }
                 }
             }
 
