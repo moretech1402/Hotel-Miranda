@@ -235,6 +235,7 @@ $gap-value: 1rem;
                 position: absolute;
                 top: 46%;
                 z-index: 4;
+                background-color: transparent;
             }
 
             &__img{
@@ -243,6 +244,7 @@ $gap-value: 1rem;
 
             &__description{
                 margin-top: 0;
+                color: black;
             }
         }
     }

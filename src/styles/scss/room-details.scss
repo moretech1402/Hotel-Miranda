@@ -129,7 +129,8 @@ $roboto-font: map-get($map: $fonts, $key: roboto);
     &__related-rooms{
         &__room{
             &__services{
-                top: 41%;
+                background-color: transparent;
+                top: 42%;
             }
 
             &__arrow-prev, &__arrow-next{

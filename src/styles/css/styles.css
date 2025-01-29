@@ -305,11 +305,13 @@ main {
   .room.--variant > .room__services {
     position: absolute;
     top: 46%;
-    z-index: 4; }
+    z-index: 4;
+    background-color: transparent; }
   .room.--variant > .room__img {
     margin-top: 0; }
   .room.--variant > .room__description {
-    margin-top: 0; }
+    margin-top: 0;
+    color: black; }
 
 .availability-form {
   width: 100%;
@@ -1319,7 +1321,8 @@ main {
   font-weight: 400;
   line-height: 24px; }
 #room-details__related-rooms__room__services {
-  top: 41%; }
+  background-color: transparent;
+  top: 42%; }
 #room-details__related-rooms__room__arrow-prev, #room-details__related-rooms__room__arrow-next {
   top: 42%; }
 
