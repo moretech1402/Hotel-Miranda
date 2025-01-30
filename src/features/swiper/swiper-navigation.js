@@ -17,6 +17,26 @@ const swiperNavigation = new Swiper('.swiper-navigation', {
       },
 });
 
+const swiperPopularRooms = new Swiper('.swiper-popular-rooms', {
+    direction: 'horizontal',
+    loop: true,
+    centeredSlides: true,
+
+    navigation: {
+        nextEl: '.swiper-button-next --custom',
+        prevEl: '.swiper-button-prev --custom',
+    },
+
+    breakpoints: {
+        1000: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            loop: false,
+            centeredSlides: false
+        },
+      },
+});
+
 const swiperNavigationFood = new Swiper('.swiper-navigation-food', {
     direction: 'horizontal',
     loop: true,

@@ -545,7 +545,6 @@ main {
     font-weight: 700;
     line-height: 15.23px;
     letter-spacing: 2.7999999523px;
-    color: white;
     color: #777777; }
   .facilities > h3 {
     font-family: "Old Standard TT";
@@ -554,9 +553,7 @@ main {
     font-size: 56px;
     font-weight: 400;
     line-height: 60px;
-    letter-spacing: -1.2000000477px;
-    color: white;
-    color: black; }
+    letter-spacing: -1.2000000477px; }
   .facilities__feature {
     padding-block: 5.5rem 3rem;
     padding-inline: 1rem;
@@ -1377,7 +1374,23 @@ main {
       z-index: 3;
       right: 6rem;
       bottom: -5.5rem;
-      width: 1rem; } }
+      width: 1rem; }
+  #offers__popular > section > h3 {
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: -2.4000000953674316px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none; }
+  #offers__popular #room-details__related-rooms__room > .room__description {
+    display: flex;
+    flex-direction: column; }
+    #offers__popular #room-details__related-rooms__room > .room__description > h4 {
+      text-align: center; }
+  #offers__popular > .swiper {
+    width: 73.125rem; }
+  #offers__popular .swiper-button-prev, #offers__popular .swiper-button-next {
+    display: none; } }
 #blog {
   padding: 4rem 1rem;
   display: flex;

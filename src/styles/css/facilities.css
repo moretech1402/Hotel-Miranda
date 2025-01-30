@@ -5,9 +5,9 @@ Error: Undefined variable: "$theme-colors".
 1: $quaternary-color: map-get($map: $theme-colors, $key: quaternary);
 2: $archivo-font: map-get($map: $fonts, $key: archivo);
 3: 
-4: @mixin facilities-standard(){
-5:     font-family: map-get($map: $fonts, $key: old-standard);
-6:     color: $quaternary-color;
+4: 
+5: .facilities{
+6:     @extend .section-common;
 
 Backtrace:
 scss/facilities.scss:1
@@ -65,4 +65,4 @@ scss/facilities.scss:1
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$theme-colors\".\A         on line 1 of scss/facilities.scss\A \A 1: $quaternary-color: map-get($map: $theme-colors, $key: quaternary);\A 2: $archivo-font: map-get($map: $fonts, $key: archivo);\A 3: \A 4: @mixin facilities-standard(){\A 5:     font-family: map-get($map: $fonts, $key: old-standard);\A 6:     color: $quaternary-color;"; }
+  content: "Error: Undefined variable: \"$theme-colors\".\A         on line 1 of scss/facilities.scss\A \A 1: $quaternary-color: map-get($map: $theme-colors, $key: quaternary);\A 2: $archivo-font: map-get($map: $fonts, $key: archivo);\A 3: \A 4: \A 5: .facilities{\A 6:     @extend .section-common;"; }

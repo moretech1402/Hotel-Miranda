@@ -84,5 +84,33 @@
             }
         }
 
+        &__popular{
+            &>section>h3{
+                font-size: 80px;
+                font-weight: 400;
+                line-height: 80px;
+                letter-spacing: -2.4000000953674316px;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+            }
+            
+            & #room-details__related-rooms__room > .room__description{
+                display: flex;
+                flex-direction: column;
+
+                &>h4{
+                    text-align: center;
+                }
+            }
+
+            &>.swiper{
+                width: 73.125rem;
+            }
+
+            & .swiper-button-prev, & .swiper-button-next{
+                display: none;
+            }
+        }
+
     }
 }

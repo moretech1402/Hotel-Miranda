@@ -1,22 +1,22 @@
 $quaternary-color: map-get($map: $theme-colors, $key: quaternary);
 $archivo-font: map-get($map: $fonts, $key: archivo);
 
-@mixin facilities-standard(){
-    font-family: map-get($map: $fonts, $key: old-standard);
-    color: $quaternary-color;
-    font-weight: 400;
-}
 
 .facilities{
     @extend .section-common;
     padding: 3rem 1rem;
-
+    
+    @mixin facilities-standard(){
+        font-family: map-get($map: $fonts, $key: old-standard);
+        color: $quaternary-color;
+        font-weight: 400;
+    }
+    
     @mixin facilities-header-text($font-size: 14px, $font-weight: 700, $line-height: 15.23px, $letter-spacing: 2.799999952316284px){
         font-size: $font-size;
         font-weight: $font-weight;
         line-height: $line-height;
         letter-spacing: $letter-spacing;
-        color: white;
     }
     
     &>strong{
@@ -28,7 +28,6 @@ $archivo-font: map-get($map: $fonts, $key: archivo);
     &>h3{
         @include facilities-standard();
         @include facilities-header-text(56px, 400, 60px, -1.2000000476837158px);
-        color: black;
     }
 
     &__feature{
