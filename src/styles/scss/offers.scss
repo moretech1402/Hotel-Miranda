@@ -41,44 +41,48 @@
 
 @media(min-width: $desktop-size){
     #offers{
-        margin-inline: 23.4375rem;
-
-        &__list__offer{
-
-            &__info{
-                z-index: 2;
-                position: relative;
-                top: -2rem;
-                background: white;
-                width: 65.625rem;
-                margin-inline: auto;
-                border-top: .5rem solid map-get($map: $theme-colors, $key: senary);
-
-                &>.section-header{
-                    border-bottom: 0.0625rem solid #ECECEC;
-                }
-
-                &__description{
-                    display: flex;
-                    justify-content: space-between;
-
-                    &>p{
-                        width: 31rem;
+        
+        &__list{
+            
+            &__offer{
+                margin-inline: 23.4375rem;
+    
+                &__info{
+                    z-index: 2;
+                    position: relative;
+                    top: -2rem;
+                    background: white;
+                    width: 65.625rem;
+                    margin-inline: auto;
+                    border-top: .5rem solid map-get($map: $theme-colors, $key: senary);
+    
+                    &>.section-header{
+                        border-bottom: 0.0625rem solid #ECECEC;
                     }
-
-                    &>.amenities__list{
-                        width: 26.375rem;
+    
+                    &__description{
+                        display: flex;
+                        justify-content: space-between;
+    
+                        &>p{
+                            width: 31rem;
+                        }
+    
+                        &>.amenities__list{
+                            width: 26.375rem;
+                        }
                     }
                 }
-            }
-
-            &__prices{
-                position: absolute;
-                z-index: 3;
-                right: 6rem;
-                bottom: -5.5rem;
-                width: 1rem;
+    
+                &__prices{
+                    position: absolute;
+                    z-index: 3;
+                    right: 6rem;
+                    bottom: -5.5rem;
+                    width: 1rem;
+                }
             }
         }
+
     }
 }

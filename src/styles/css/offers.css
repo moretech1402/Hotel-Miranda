@@ -9,10 +9,10 @@ Error: Undefined variable: "$desktop-size".
 41: 
 42: @media(min-width: $desktop-size){
 43:     #offers{
-44:         margin-inline: 23.4375rem;
-45: 
-46:         &__list__offer{
-47: 
+44:         
+45:         &__list{
+46:             
+47:             &__offer{
 
 Backtrace:
 scss/offers.scss:42
@@ -65,4 +65,4 @@ scss/offers.scss:42
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$desktop-size\".\A         on line 42 of scss/offers.scss\A \A 37:         flex-direction: column;\A 38:         gap: 2rem;\A 39:     }\A 40: }\A 41: \A 42: @media(min-width: $desktop-size){\A 43:     #offers{\A 44:         margin-inline: 23.4375rem;\A 45: \A 46:         &__list__offer{\A 47: "; }
+  content: "Error: Undefined variable: \"$desktop-size\".\A         on line 42 of scss/offers.scss\A \A 37:         flex-direction: column;\A 38:         gap: 2rem;\A 39:     }\A 40: }\A 41: \A 42: @media(min-width: $desktop-size){\A 43:     #offers{\A 44:         \A 45:         &__list{\A 46:             \A 47:             &__offer{"; }

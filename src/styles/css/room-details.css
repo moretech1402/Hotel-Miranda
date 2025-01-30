@@ -5,8 +5,8 @@ Error: Undefined variable: "$fonts".
 1: $archivo-font: map-get($map: $fonts, $key: archivo);
 2: $roboto-font: map-get($map: $fonts, $key: roboto);
 3: 
-4: .room-details{
-5:     padding: 2rem 1rem;
+4: .room{
+5:     position: relative;
 6:     display: flex;
 
 Backtrace:
@@ -65,4 +65,4 @@ scss/room-details.scss:1
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$fonts\".\A         on line 1 of scss/room-details.scss\A \A 1: $archivo-font: map-get($map: $fonts, $key: archivo);\A 2: $roboto-font: map-get($map: $fonts, $key: roboto);\A 3: \A 4: .room-details{\A 5:     padding: 2rem 1rem;\A 6:     display: flex;"; }
+  content: "Error: Undefined variable: \"$fonts\".\A         on line 1 of scss/room-details.scss\A \A 1: $archivo-font: map-get($map: $fonts, $key: archivo);\A 2: $roboto-font: map-get($map: $fonts, $key: roboto);\A 3: \A 4: .room{\A 5:     position: relative;\A 6:     display: flex;"; }
