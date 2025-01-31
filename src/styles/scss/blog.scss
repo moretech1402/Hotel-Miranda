@@ -74,10 +74,26 @@
 
 @media (min-width:$desktop-size){
     #blog{
-        margin-inline: 370px;
+        margin-inline: 23.125rem;
 
         &__contact{
             flex-direction: row;
+        }
+
+        &__form{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 1.875rem;
+            margin-inline: 6.25rem;
+
+            &__message{
+                grid-column: 1 / 3;
+            }
+
+            &>button{
+                grid-column: 1 / 3;
+                margin: auto;
+            }
         }
     }
 }
