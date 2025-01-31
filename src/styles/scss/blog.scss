@@ -71,3 +71,13 @@
         }
     }
 }
+
+@media (min-width:$desktop-size){
+    #blog{
+        margin-inline: 370px;
+
+        &__contact{
+            flex-direction: row;
+        }
+    }
+}

@@ -1441,6 +1441,11 @@ main {
     #blog__form > button {
       margin-block: 1rem; }
 
+@media (min-width: 1000px) {
+  #blog {
+    margin-inline: 370px; }
+    #blog__contact {
+      flex-direction: row; } }
 html, * {
   box-sizing: border-box;
   margin: 0;
