@@ -1443,9 +1443,19 @@ main {
 
 @media (min-width: 1000px) {
   #blog {
-    margin-inline: 370px; }
+    margin-inline: 23.125rem; }
     #blog__contact {
-      flex-direction: row; } }
+      flex-direction: row; }
+    #blog__form {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 1.875rem;
+      margin-inline: 6.25rem; }
+      #blog__form__message {
+        grid-column: 1 / 3; }
+      #blog__form > button {
+        grid-column: 1 / 3;
+        margin: auto; } }
 html, * {
   box-sizing: border-box;
   margin: 0;
